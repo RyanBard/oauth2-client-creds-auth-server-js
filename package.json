@@ -1,0 +1,30 @@
+{
+  "name": "oauth2-client-creds-auth-server",
+  "version": "1.0.0",
+  "description": "A simple example of an oauth2 auth server implementing only the client_credentials grant_type",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanBard/oauth2-client-creds-auth-server-js.git"
+  },
+  "author": "Ryan Bard <john.ryan.bard@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RyanBard/oauth2-client-creds-auth-server-js/issues"
+  },
+  "homepage": "https://github.com/RyanBard/oauth2-client-creds-auth-server-js#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}

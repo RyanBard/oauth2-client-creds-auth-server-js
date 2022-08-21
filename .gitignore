@@ -1,3 +1,9 @@
+# Vim swap files
+*.swp
+
+# Mac Finder files
+.DS_Store
+
 # Logs
 logs
 *.log
