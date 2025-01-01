@@ -26,6 +26,6 @@
   "devDependencies": {
     "axios": "^0.29.0",
     "chai": "^4.5.0",
-    "mocha": "^10.8.2"
+    "mocha": "^11.0.1"
   }
 }
