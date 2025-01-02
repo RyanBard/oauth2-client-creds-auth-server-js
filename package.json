@@ -24,7 +24,6 @@
     "winston": "^3.17.0"
   },
   "devDependencies": {
-    "axios": "^0.29.0",
     "chai": "^4.5.0",
     "mocha": "^11.0.1"
   }
