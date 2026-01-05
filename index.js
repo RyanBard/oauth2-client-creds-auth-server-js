@@ -19,7 +19,7 @@ const {
     format,
     transports,
 } = require('winston')
-const uuid = require('uuid').v4
+const { randomUUID } = require('crypto')
 
 const log = createLogger({
     level: process.env.LOG_LEVEL || 'debug',
@@ -52,7 +52,7 @@ function signJwt() {
         subject: cfgClientId,
     }
     const customClaims = {
-        nonce: uuid(),
+        nonce: randomUUID(),
     }
     return new Promise((resolve, reject) => {
         jwt.sign(customClaims, cfgJwtSecret, options, (err, token) => {
